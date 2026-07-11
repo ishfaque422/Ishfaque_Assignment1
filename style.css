@@ -1,3 +1,138 @@
-h1{
-    color: aqua;
+body {
+    margin: 0;
 }
+* {
+    font-family: "Arimo", sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px
+
+}
+.logo h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-links button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-links button:hover {
+    opacity: 0.8;
+}
+
+.Hero {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    
+
+}
+.Hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45); /* 45% black tint */
+    z-index: 1; 
+}
+
+.Hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+.section-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 10;
+    text-align: center;
+    
+}
+
+.section-content h1{
+    font-size: 50px;
+    font-style:italic;
+    gap: 100px;
+}
+
+.section-content p{
+    font-size: 22px;
+    font-style: oblique;
+}
+
+.btn{
+    border-radius: 10px;
+background: #1D4ED8;
+color: #ffffff;
+display: flex;
+width: 182px;
+height: 50px;
+padding: 12px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+cursor: pointer;
+margin: 30px auto 0;
+font-size: 22px;
+  
+}
+
+.section-content .btn {
+    margin-top: 180px; 
+}
+.section-content .btn:hover{
+    background: #ffffff;
+    color: #000000;
+    
+}
+
+
+.section-content h1 {
+    margin-top: 50px;
+
+}
+
+.section-content p {
+    margin-bottom: 40px; 
+
+}
+
