@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 }
@@ -136,3 +137,158 @@ font-size: 22px;
 
 }
 
+.body-title{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: #ffffff;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 12px;
+    padding: 20px;
+    
+    
+}
+
+.body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 90%;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.card img {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-top: -20px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    
+}
+.card h5{
+    color: #1D4ED8;
+}
+
+.price p{
+    text-align: center;
+}
+.price-head{
+    text-align: center;
+}
+
+.price-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.price-card h1 {
+    margin: 10px 0;
+}
+.price-card p {
+    color: gray;
+    text-align: left;
+
+}
+.price-card li {
+    margin: 10px 0;
+}
+.price-card button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.price-card {
+    text-align: left;
+}
+.price-card ul {
+    padding-left: 20px;
+}
+
+.price .btn2{
+    border-radius: 10px;
+background: #1D4ED8;
+color: #ffffff;
+cursor: pointer;
+    
+}
+
+.pricing-section {
+        width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.second-card{
+    background-color: #000000;
+    border-radius: 10px;
+    color: #ffffff;
+    
+
+}
+
+.second-card p{
+    color: white;
+}
+
+.contact {
+    width: 90%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #1D4ED8;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #163db3;
+}
