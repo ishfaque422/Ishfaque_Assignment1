@@ -292,3 +292,43 @@ cursor: pointer;
 .contact-form button:hover {
     background: #163db3;
 }
+
+.footer {
+    background: #111827;
+    color: white;
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.footer-logo {
+   
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer p {
+    color: #d1d5db;
+    margin: 20px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover {
+    color: #4777fb;
+}
