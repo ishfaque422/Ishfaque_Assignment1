@@ -101,6 +101,8 @@ nav {
 }
 
 .btn{
+    border: none;
+    outline: none;
     border-radius: 10px;
 background: #1D4ED8;
 color: #ffffff;
@@ -116,7 +118,16 @@ margin: 30px auto 0;
 font-size: 22px;
   
 }
+.btn {
+    transition: all 0.3s ease;
+}
 
+.btn:hover {
+    background: #ffffff;
+    color: #1D4ED8;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(29, 78, 216, 0.3);
+}
 .section-content .btn {
     margin-top: 180px; 
 }
